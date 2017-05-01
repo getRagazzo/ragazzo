@@ -10,10 +10,10 @@ If you downloaded the .tar.gz file, extract it.
 
 Navigate to the Ragazzo directory you now have in a terminal.
 
-Run `./ragazzod --config-file=ragazzo.conf` in order to start the Ragazzo daemon. The blockchain will take a moment to sync, so be patient in this step.
+Run `./ragazzod --config-file configs/ragazzo.conf` in order to start the Ragazzo daemon. The blockchain will take a moment to sync, so be patient in this step.
 
 ### Step 3: Create a wallet
-In another terminal, open the Ragazzo directory and run `./simplewallet --config-file=ragazzo.conf`
+In another terminal, open the Ragazzo directory and run `./simplewallet --config-file configs/ragazzo.conf`
 
 Press 'G' to generate a new wallet. Give it whatever name you want, and use a password you won't forget.
 
